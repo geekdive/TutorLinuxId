@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPembatas"
+        android:layout_width="58dp"
+        android:layout_height="110dp"
+        android:src="@drawable/icon"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ktnLinux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="konten linux"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ktnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:textColor="#c2afaf"
+            android:text="Info konten isi dari pengertian dari konten yang akan dibahas, misalkan seperti ifconfig, netstat, top, htop, termianl dan lain sebagainya."/>
+
+    </LinearLayout>
+
+</LinearLayout>

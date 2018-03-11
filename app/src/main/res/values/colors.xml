@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#b2eaea</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="warnaPembatas">#456063</color>
+    <color name="warnaBawah">#009999</color>
+</resources>

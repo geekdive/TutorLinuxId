@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.dev.septiyadi.tutorlinuxid.homeActivity">
+
+    <LinearLayout
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUTOR-LINUX"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".ID"
+                android:textColor="#ef711d"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy use linux your own with this apps to be i'm posible"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="#73cc72"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <View
+            android:layout_marginLeft="20dp"
+            android:background="#266c94"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="#f9fff3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/idList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="#73cc72"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <View
+            android:layout_marginLeft="20dp"
+            android:background="#266c94"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
